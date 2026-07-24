@@ -1,8 +1,25 @@
 aid: brain-jar-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brain-jar-games.png
 name: Brain Jar Games
-description: Brain Jar Games is a company surfaced as a portfolio company of menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Brain Jar Games is a fully-remote independent video game studio founded by AAA industry
+  veterans who have shipped franchises including Mass Effect, Dragon Age, RIFT, and Call of Duty. The
+  studio builds bold, vibrant, music-driven action games designed to be shared; its debut title, Dead
+  as Disco, blends kinetic gunplay with rhythm-synced choreography. Brain Jar Games is backed by Menlo
+  Ventures and Transcend, having raised $12.2M across seed funding, and operates a four-day, 32-hour
+  work week with team members across North America, Europe, and Turkey. The company publishes no public
+  API, SDK, or developer platform; this profile tracks it as a venture-portfolio lead in the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/brain-jar-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video Games
+- Gaming
+- Game Studio
+- Entertainment
+- Interactive Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/brain-jar-games-domain-security.yml
 - type: Website
   url: https://brainjar.games
+- type: PrivacyPolicy
+  url: https://brainjar.games/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
